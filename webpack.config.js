@@ -1,6 +1,7 @@
 const path = require("path");
 
 const postCSSPlugins = [
+  require("postcss-import"),
   require("postcss-simple-vars"),
   require("postcss-nested"),
   require("autoprefixer")
@@ -23,7 +24,7 @@ module.exports = {
         test: /\.css$/i,
         //css-loader load css files in bundle.js style-loader uses this bundle css
         use: [
-          "style-loader", 
+          "style-loader",
           //?url=false By default, the css-loader will attempt to handle any images
           // we reference in our CSS (e.g. background images, etc...).
           // While this is great in certain situations, for our usage
