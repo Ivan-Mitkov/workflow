@@ -1,0 +1,7 @@
+ctr + ,  setings.json 
+"files.associations": {
+        "*.css": "scss"
+}
+
+css-loader
+style-loader

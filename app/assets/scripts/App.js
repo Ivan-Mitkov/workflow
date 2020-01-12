@@ -1,1 +1,2 @@
-alert("Hello from app!!!")
+import '../styles/styles.css'
+console.log("Hello from app!!!")
