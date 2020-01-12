@@ -1,7 +1,7 @@
 {
   "name": "workflow",
   "version": "1.0.0",
-  "main": "index.js", 
+  "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server",
     "build": "webpack",
@@ -38,7 +38,6 @@
     "webpack-cli": "^3.3.9",
     "webpack-dev-server": "^3.9.0"
   },
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ivan-Mitkov/workflow.git"
